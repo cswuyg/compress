@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7z", "7z.vcxproj", "{ACD72FE2-065F-248C-B9BE-AA635CCEE55E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_7z", "..\test_7z\test_7z.vcxproj", "{FE9BB39A-CB66-43B7-87AC-B4FD5B060027}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ACD72FE2-065F-248C-B9BE-AA635CCEE55E} = {ACD72FE2-065F-248C-B9BE-AA635CCEE55E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD72FE2-065F-248C-B9BE-AA635CCEE55E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACD72FE2-065F-248C-B9BE-AA635CCEE55E}.Debug|Win32.Build.0 = Debug|Win32
+		{ACD72FE2-065F-248C-B9BE-AA635CCEE55E}.Release|Win32.ActiveCfg = Release|Win32
+		{ACD72FE2-065F-248C-B9BE-AA635CCEE55E}.Release|Win32.Build.0 = Release|Win32
+		{FE9BB39A-CB66-43B7-87AC-B4FD5B060027}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE9BB39A-CB66-43B7-87AC-B4FD5B060027}.Debug|Win32.Build.0 = Debug|Win32
+		{FE9BB39A-CB66-43B7-87AC-B4FD5B060027}.Release|Win32.ActiveCfg = Release|Win32
+		{FE9BB39A-CB66-43B7-87AC-B4FD5B060027}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
