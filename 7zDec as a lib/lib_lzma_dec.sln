@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lib_lzma_dec", "lib_lzma_dec\lib_lzma_dec.vcxproj", "{9E809568-5706-4C65-B932-0480CAFB531C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_lib", "test_lib\test_lib.vcxproj", "{8A3EADD5-439B-4D27-AEE8-55FC8A61EE42}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E809568-5706-4C65-B932-0480CAFB531C} = {9E809568-5706-4C65-B932-0480CAFB531C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E809568-5706-4C65-B932-0480CAFB531C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E809568-5706-4C65-B932-0480CAFB531C}.Debug|Win32.Build.0 = Debug|Win32
+		{9E809568-5706-4C65-B932-0480CAFB531C}.Release|Win32.ActiveCfg = Release|Win32
+		{9E809568-5706-4C65-B932-0480CAFB531C}.Release|Win32.Build.0 = Release|Win32
+		{8A3EADD5-439B-4D27-AEE8-55FC8A61EE42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A3EADD5-439B-4D27-AEE8-55FC8A61EE42}.Debug|Win32.Build.0 = Debug|Win32
+		{8A3EADD5-439B-4D27-AEE8-55FC8A61EE42}.Release|Win32.ActiveCfg = Release|Win32
+		{8A3EADD5-439B-4D27-AEE8-55FC8A61EE42}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

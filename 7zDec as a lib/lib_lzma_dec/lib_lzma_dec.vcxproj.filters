@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\lzma_c">
+      <UniqueIdentifier>{72110492-9756-427f-aa90-4776ccda2cb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lzma_c\7zBuf.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\7zCrc.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\7zCrcOpt.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\7zDec.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\7zFile.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\7zIn.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\7zStream.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\Bcj2.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\Bra.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\Bra86.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\CpuArch.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\Lzma2Dec.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\LzmaDec.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\Ppmd7.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\Ppmd7Dec.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma_c\7zAlloc.c">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClCompile>
+    <ClCompile Include="7z_lib_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lzma_c\7zBuf.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\7zCrc.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\7zFile.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\Bcj2.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\Bra.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\CpuArch.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\Lzma2Dec.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\LzmaDec.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\Ppmd.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\Ppmd7.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\Types.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\7z.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma_c\7zAlloc.h">
+      <Filter>Source Files\lzma_c</Filter>
+    </ClInclude>
+    <ClInclude Include="include\7z_lib_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
